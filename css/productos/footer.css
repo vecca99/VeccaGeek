@@ -1,0 +1,135 @@
+@media screen and (max-width: 1440px) {
+  /* FOOTER */
+
+  .footer {
+    display: flex;
+    background-color: aliceblue;
+    margin-top: 1rem;
+    justify-content: center;
+  }
+
+  .footer__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 80vw;
+  }
+
+  .footer__container_logo_links {
+    display: flex;
+    justify-content: space-between;
+    width: 38vw;
+    align-items: flex-start;
+  }
+
+  .footer__logo {
+    display: flex;
+    align-items: center;
+  }
+
+  .footer__links {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding-inline-start: 0;
+  }
+
+  .footer__links_linkItem {
+    line-height: 2.5rem;
+  }
+
+  .footer__formulario {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+  }
+
+  .formulario__nombre,
+  .formulario__mensaje {
+    margin-bottom: 1.2rem;
+  }
+
+  .formulario__boton {
+    all: unset;
+    width: 10vw;
+    height: 2vh;
+    font-size: 1rem;
+    text-align: center;
+    border-style: solid;
+    border-width: 0.01rem;
+    padding: 1rem;
+    background-color: #2a7ae4;
+    color: white;
+    transition: background-color 0.5s;
+  }
+
+  .formulario__boton:hover {
+    background-color: red;
+    color: white;
+  }
+
+  .leyenda {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer__container {
+    width: 95vw;
+  }
+
+  .footer__container_logo_links {
+    flex-direction: column;
+  }
+
+  .footer__formulario {
+    width: 60vw;
+  }
+
+  .formulario__boton {
+    width: 15vw;
+    height: 1.5vh;
+    font-size: 0.9rem;
+    padding: 0.6rem;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .footer {
+    height: 30vh;
+  }
+
+  .footer__container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .footer__container_logo_links {
+    width: 60vw;
+    align-items: center;
+  }
+
+  .footer__logo {
+    width: 40vw;
+  }
+
+  .footer_container_links {
+    text-align: center;
+  }
+
+  .footer_container_form {
+    width: 95vw;
+  }
+
+  .footer__formulario {
+    width: 95vw;
+  }
+
+  .formulario__boton {
+    width: 25vw;
+    height: 1vh;
+  }
+}

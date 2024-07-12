@@ -1,0 +1,22 @@
+{
+  "name": "admin",
+  "version": "1.0.0",
+  "description": "VeccaGeek project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vecca99/VeccaGeek.git"
+  },
+  "keywords": [
+    "Alura"
+  ],
+  "author": "Veronica Vazquez",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/autor/proyecto/issues"
+  },
+  "homepage": "https://github.com/autor/proyecto#readme"
+}

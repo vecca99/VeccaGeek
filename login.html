@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/login/login.css" />
+    <link rel="stylesheet" href="./css/login/header.css" />
+    <link rel="stylesheet" href="./css/login/main.css" />
+    <link rel="stylesheet" href="./css/login/footer.css" />
+    <title>VeccaGeek - Login</title>
+  </head>
+  <body>
+    <header>
+      <div class="cuerpo__cabecera">
+        <div class="cabecera">
+          <div class="cabecera__titulo_busqueda">
+            <img
+              class="cabecera__imagen"
+              src="./img/home/logo_joys.png"
+              alt="Logo AluraGeek"
+            />
+            <h2 class="cabecera__titulo">
+              Vecca<span class="cabecera__titulo_2">Geek</span>
+            </h2>
+          </div>
+          <div class="cabecera__div_input">
+            <input
+              class="cabecera__input"
+              type="text"
+              placeholder="¿Qué deseas buscar?"
+            />
+            <img
+              src="./img/home/search_icon.png"
+              alt="Icono de búsqueda"
+              class="cabecera__icono"
+            />
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="form__container">
+        <form action="" class="form__formulario" data-form>
+          <h3 class="form__cabecera">Iniciar Sesión</h3>
+          <input
+            type="email"
+            class="form__input_email"
+            placeholder="Escriba su correo electrónico"
+            required
+            data-email
+          />
+          <input
+            type="password"
+            class="form__input_password"
+            placeholder="Escriba su contraseña"
+            required
+            data-password
+          />
+          <button class="form__submit">Entrar</button>
+        </form>
+      </div>
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="footer__container">
+          <div class="footer__container_logo_links">
+            <div class="footer__logo">
+              <img
+                class="cabecera__imagen"
+                src="./img/home/logo_joys.png"
+                alt="Logo AluraGeek"
+              />
+              <h2 class="cabecera__titulo">
+                Vecca<span class="cabecera__titulo_2">Geek</span>
+              </h2>
+            </div>
+            <div class="footer_container_links">
+              <ul class="footer__links">
+                <li class="footer__links_linkItem">Quienes somos</li>
+                <li class="footer__links_linkItem">Política de privacidad</li>
+                <li class="footer__links_linkItem">Programa de fidelidad</li>
+                <li class="footer__links_linkItem">Nuestras tiendas</li>
+                <li class="footer__links_linkItem">Quiero ser franquiciado</li>
+                <li class="footer__links_linkItem">Anuncie aquí</li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer_container_form">
+            <form class="footer__formulario" action="">
+              <h4 class="footer__formulario_titulo">Hable con nosotros</h4>
+
+              <input
+                type="text"
+                class="formulario__nombre"
+                placeholder="Nombre"
+              />
+              <textarea
+                name=""
+                id=""
+                cols="30"
+                rows="5"
+                class="formulario__mensaje"
+                placeholder="Escribe tu mensaje"
+              ></textarea>
+
+              <button class="formulario__boton">Enviar mensaje</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="leyenda">
+        <p class="copyright">
+        </p>
+          Desarrollado por Veronica Vazquez para Oracle ONE
+        </p>
+        <p class="year">2024</p>
+      </div>
+    </footer>
+    <script type="module" src="./js/login.js"></script>
+  </body>
+</html>

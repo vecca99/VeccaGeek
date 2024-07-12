@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
+@media screen and (max-width: 1440px) {
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 360px) {
+}

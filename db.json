@@ -1,0 +1,44 @@
+{
+  "perfil": [
+    {
+      "nombre": "admin",
+      "email": "admin@vecca.com",
+      "password": "admin",
+      "id": 1
+    }
+  ],
+  "categoria_productos": [
+    {
+      "nombre": "Accesorios",
+      "cat_id": 1
+    },
+    {
+      "nombre": "Consolas",
+      "cat_id": 2
+    },
+    {
+      "nombre": "Diversos",
+      "cat_id": 3
+    }
+  ],
+  "productos": [
+    {
+      "nombre": "Casco",
+      "cat_id": 1,
+      "prod_id": 1,
+      "precio": 20
+    },
+    {
+      "nombre": "Casco 2",
+      "cat_id": 1,
+      "prod_id": 2,
+      "precio": 40
+    },
+    {
+      "nombre": "Jedi",
+      "cat_id": 1,
+      "prod_id": 3,
+      "precio": 60
+    }
+  ]
+}
